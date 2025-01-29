@@ -1,0 +1,82 @@
+### Visual Studio ###
+## User-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## NuGet Packages
+*.nupkg
+.nuget/
+nuget.exe
+
+## Ignore NuGet restore
+packages/
+
+## Build results for Visual Studio
+artifacts/
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+## Visual Studio cache/options directory
+.vs/
+
+### .NET Core ###
+## .NET Core build/output
+**/bin/
+**/obj/
+
+## .NET Core project files
+*.csproj.user
+*.csproj.*.user
+
+## Local development
+appsettings.Development.json
+
+### ASP.NET Core ###
+## Ignore published output
+**/wwwroot/
+**/publish/
+
+## Ignore local secrets
+secrets.json
+
+### Misc ###
+## Ignore Rider IDE files
+.idea/
+
+## Ignore VS Code files
+.vscode/
+
+## Ignore macOS files
+.DS_Store
+
+## Ignore npm/yarn files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+## Ignore local development files
+*.swp
+*.swo
+*.log
+*.tmp
+*.cache
